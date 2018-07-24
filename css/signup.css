@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+}
+
+body{
+			margin: 0 auto;
+			font-family: 'Open Sans', sans-serif;
+			background: url(../img/register.jpg);
+			background-size: cover;
+		}
+		.container{
+			width: 450px;
+			margin: 12% auto;
+		}
+		.signup-section{
+			background-color: #1db9b9a6;
+			padding: 20px;
+			border-radius: 10px;
+		}
+
+		.signup-section h3 {
+			padding: 20px 0;
+		    text-align: center;
+		    font-weight: 600;
+			font-size: 25px;
+			color: #fff;
+		}
+		.form-control1{
+			width: 85%;
+		    height: 35px;
+		    padding: 0px 20px;
+		    border-radius: 3px;
+		    margin-bottom: 20px;
+		    border: 1px solid black;
+		}
+
+		p{
+			padding: 10px 0;
+			color: #fff;
+		}
+		.form-btn{
+			background-color: #423136;
+		    padding: 8px 24px;
+		    font-size: 16px;
+		    font-weight: 600;
+		    display: block;
+		    margin: 0 auto;
+		    border: 1px solid #353a4e;
+		    color: #fff;
+		    transition: 0.4s;
+		} 
+		.form-btn:hover{
+			cursor: pointer;
+			background-color: #fff;
+			color: black;
+			box-shadow: 2px 3px 4px #fff;
+		}
+		.signup-section a{
+			color: #fff;
+			text-decoration: none;
+			float: left;
+		}
